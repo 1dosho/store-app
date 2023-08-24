@@ -1,0 +1,15 @@
+.our-products{
+    display: flex;
+   justify-content: space-between;
+   padding: 1.5%;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   color: gray;
+   font-weight: 100;
+}
+
+ h2{
+    font-style: oblique;
+}
+h1{
+    font-size: 3rem;
+}

@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    gap: 10rem;
+    color:antiquewhite;
+    background-color: rgb(41, 41, 41);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+justify-content: space-between;
+padding: 1%;
+}
+
+.icon{
+    height: 60%;
+    padding: 1%;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    left: 0;
+    font-style:oblique;
+}
+
+
+.bump {
+    animation: bump 300ms ease-out;
+    align-self: flex-end;
+}
+
+@keyframes bump {
+    0% {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(0.9);
+    }
+
+    30% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

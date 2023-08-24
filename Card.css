@@ -1,0 +1,26 @@
+.card-body{
+    width: 25%;
+    /* padding-left: 1.5%;
+    padding-right: 1.5%; */
+    text-align: center;
+    padding: 1.5%;
+    border: 1px solid gray;
+    margin: 1.5%;
+box-shadow: 2px 4px 8px rgba(0,0,0,0.5);
+}
+
+.card-body h2{
+    color: red;
+}
+
+.card-body p {
+    color: gray;   
+}
+
+.card-body button {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    height: 3rem;
+    width: 8rem;
+    font-size: 1rem;
+}
